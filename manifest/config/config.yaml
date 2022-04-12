@@ -1,0 +1,22 @@
+server:
+  address:     ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level : "all"
+  stdout: true
+
+gfcli:
+  build:
+    name:     "gf"
+    arch:     "amd64"
+    system:   "linux"
+    mod:      "none"
+    cgo:      0
+    pack:     ""
+    version:  "v1.0.0"
+    output:   "./bin"
+    extra:    ""
+
+
